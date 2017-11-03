@@ -1,0 +1,16 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$halloween-background-color: #2b065e;
+$text-color: #000000;
+
+body {
+  background: $halloween-background-color;
+  color: $text-color;
+}
+.movieDetails-img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  display: block;
+}
